@@ -8,6 +8,14 @@ public interface RideService {
 
 	List<Ride> getRides();
 
+	Ride getRide(int id); 
+
 	Ride createRide(Ride ride);
-	
+
+	Ride updateRide(Ride ride);
+
+	void batch();
+
+	void delete(int id);
+
 }
